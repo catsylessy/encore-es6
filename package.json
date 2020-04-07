@@ -1,0 +1,17 @@
+{
+  "name": "@encore/es-6-encore",
+  "version": "1.0.0",
+  "description": "ES6 Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessio Cattaneo",
+  "license": "ISC",
+  "dependencies": {
+    "@encore/es-6-utils": "1.0.0",
+    "@encore/es-6-events": "1.0.0",
+    "@encore/es-6-breakpoint": "1.0.0",
+    "@encore/es-6-toggler": "1.0.0"
+  }
+}

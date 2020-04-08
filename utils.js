@@ -1,4 +1,4 @@
-import { addEvent } from '@encore/es-6-events'
+import { addEvent } from './es-6-events'
 
 /**
  * qs

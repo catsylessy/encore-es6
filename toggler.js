@@ -7,20 +7,20 @@ import { addEvent } from './events'
  * manage toggler plugins
  */
 export class TogglerManager {
-
-    /** static instance */
-    static instance = null
-
-    /** togglers collection */
-    togglers = []
-
-    /** last toggled */
-    lastToggle = null
-
-    /** static drop */
-    drop = null
-
     constructor() {
+
+        /** static instance */
+        this.instance = null
+
+        /** togglers collection */
+        this.togglers = []
+
+        /** last toggled */
+        this.lastToggle = null
+
+        /** static drop */
+        this.drop = null
+
         addEvent({
             element: TogglerManager.drop,
             type: 'click',

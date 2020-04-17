@@ -55,6 +55,18 @@ export const ce = ({ html = '', appendTo, prependTo }) => {
 }
 
 /**
+ * wap content inside a Node
+ * 
+ * @param {DOMElement} toWrap 
+ * @param {DOMElement} wrapper 
+ */
+export const wrapInner = (toWrap, wrapper) => {
+    wrapper = wrapper || document.createElement('div');
+    toWrap.parentNode.appendChild(wrapper);
+    return wrapper.appendChild(toWrap);
+};
+
+/**
  * disjoint
  *
  * @param {object} DOMElement
